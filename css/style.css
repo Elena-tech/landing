@@ -1,0 +1,58 @@
+
+@import url("components/baner.css");
+
+@import url("components/btn.css");
+
+@import url("components/cards.css");
+
+@import url("components/footer.css");
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-cont {
+  margin: auto;
+}
+
+.contaner {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+/* Custom design below! */
+
+/*
+@media (max-width: 1500px) {
+  /* For a screen < 960px, this CSS will be read */
+/*  .main-cont {
+    width: 1500px;
+  }*/
+}
+/*@media (max-width: 900px) {
+   For a screen < 720px, this CSS will be read
+  .main-cont {
+    width: 900px;
+  }
+}*/
+/*@media (max-width: 540px) {
+   For a screen < 540px, this CSS will be read
+  .main-cont {
+    width: 400px;
+  }
+}*/
